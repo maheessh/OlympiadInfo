@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "199432855141",
+    "project_id": "olyinfo",
+    "storage_bucket": "olyinfo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199432855141:android:30034bcbd5467e065fb08c",
+        "android_client_info": {
+          "package_name": "com.app.olyinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199432855141-qo5mtbanieunivkfggr90bmjqeq5k1jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-Kzb8TSvjOZuycqd6dvdpeDJ7ThsvfwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199432855141-qo5mtbanieunivkfggr90bmjqeq5k1jl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "199432855141-qe8bv0i6rkn00c93a7kpaonl2aqpauqi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.olyinfo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
