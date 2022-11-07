@@ -17,7 +17,7 @@ class _MathpageState extends State<Mathpage> {
       decoration: const BoxDecoration(
           image: DecorationImage(
               image: NetworkImage(
-                  'https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+                  'https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
               fit: BoxFit.fill)),
       child: Container(
         decoration: BoxDecoration(
@@ -38,7 +38,7 @@ class _MathpageState extends State<Mathpage> {
           body: SingleChildScrollView(
             child: Column(
               children: [
-                Padding(
+                const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: OlyInfo(
                     olyname: 'Nepal Mathematics Olympiad',
@@ -49,10 +49,10 @@ class _MathpageState extends State<Mathpage> {
                     moreinfo: '',
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 15,
                 ),
-                Padding(
+                const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: OlyInfo(
                     olyname: 'International Mathematics Olympiad',
@@ -64,7 +64,7 @@ class _MathpageState extends State<Mathpage> {
                     moreinfo: 'https://www.imo-official.org/',
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 15,
                 ),
                 TextButton(

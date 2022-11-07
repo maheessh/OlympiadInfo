@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:olyinfo/dashboard/splash_screen.dart';
 
 import 'dashboard/homepage.dart';
 import 'firebase_options.dart';
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'OlyInfo',
-      home: DashBoard(),
+      home: SplashScreen(),
     );
   }
 }

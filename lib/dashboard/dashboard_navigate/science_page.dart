@@ -18,7 +18,7 @@ class _SciencePageState extends State<SciencePage> {
       decoration: const BoxDecoration(
           image: DecorationImage(
               image: NetworkImage(
-                  'https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+                  'https://images.pexels.com/photos/2078126/pexels-photo-2078126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
               fit: BoxFit.fill)),
       child: Container(
         decoration: BoxDecoration(
@@ -70,10 +70,10 @@ class _SciencePageState extends State<SciencePage> {
                         'https://www.stemnepal.org/index.php/nepal-chemistry-olympiad/',
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 15,
                 ),
-                Padding(
+                const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: OlyInfo(
                     olyname: 'Nepal Earth Science Olympiad',

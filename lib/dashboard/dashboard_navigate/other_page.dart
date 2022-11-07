@@ -18,7 +18,7 @@ class _OtherpageState extends State<Otherpage> {
       decoration: const BoxDecoration(
           image: DecorationImage(
               image: NetworkImage(
-                  'https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
+                  'https://images.pexels.com/photos/5217882/pexels-photo-5217882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'),
               fit: BoxFit.fill)),
       child: Container(
         decoration: BoxDecoration(
